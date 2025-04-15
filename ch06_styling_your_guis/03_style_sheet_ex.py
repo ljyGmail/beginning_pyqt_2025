@@ -32,14 +32,14 @@ class MainWindow(QWidget):
                     border-width: 1px;
                     border-radius: 5px;
                     image: url(ch06_styling_your_guis/images/like_normal.png);
-                    qproperty-iconsize: 20px 20px;}
+                    qproperty-iconSize: 20px 20px;}
             QPushButton:pressed {background-color: grey;
                     padding: 5px;
                     border-style: outset;
                     border-width: 1px;
                     border-radius: 5px;
                     image: url(ch06_styling_your_guis/images/like_clicked.png);
-                    qproperty-iconsize: 20px 20px;}"""
+                    qproperty-iconSize: 20px 20px;}"""
         )
 
         v_box = QVBoxLayout()
